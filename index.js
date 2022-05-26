@@ -60,7 +60,7 @@ app.post("/webhook", function(req, res) {
       console.error(err)
     })
 
-    // データを送信
+    // データを送信する
     request.write(dataString)
     request.end()
   }
